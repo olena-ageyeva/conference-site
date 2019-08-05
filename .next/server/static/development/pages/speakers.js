@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 5);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -813,7 +813,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _src_App__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../src/App */ "./src/App.js");
-var _jsxFileName = "C:\\Users\\olenaageyeva\\Desktop\\Training Projects\\hello-next\\pages\\speakers.js";
+var _jsxFileName = "C:\\Users\\olenaageyeva\\Desktop\\Training Projects\\conference\\pages\\speakers.js";
 
 
 
@@ -845,8 +845,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _Home__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Home */ "./src/Home.js");
-/* harmony import */ var _Speakers__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Speakers */ "./src/Speakers.js");
-var _jsxFileName = "C:\\Users\\olenaageyeva\\Desktop\\Training Projects\\hello-next\\src\\App.js";
+/* harmony import */ var _Speakers__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Speakers */ "./src/Speakers.js");
+var _jsxFileName = "C:\\Users\\olenaageyeva\\Desktop\\Training Projects\\conference\\src\\App.js";
 
 
 
@@ -860,7 +860,7 @@ const pageToShow = pageName => {
     },
     __self: undefined
   });
-  if (pageName === "Speakers") return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Speakers__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  if (pageName === "Speakers") return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Speakers__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
@@ -917,7 +917,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _SignMeUp__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./SignMeUp */ "./src/SignMeUp.js");
-var _jsxFileName = "C:\\Users\\olenaageyeva\\Desktop\\Training Projects\\hello-next\\src\\Header.js";
+var _jsxFileName = "C:\\Users\\olenaageyeva\\Desktop\\Training Projects\\conference\\src\\Header.js";
 
 
 const Header = () => {
@@ -1022,7 +1022,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _static_site_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_static_site_css__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _src_Header__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../src/Header */ "./src/Header.js");
 /* harmony import */ var _src_Menu__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../src/Menu */ "./src/Menu.js");
-var _jsxFileName = "C:\\Users\\olenaageyeva\\Desktop\\Training Projects\\hello-next\\src\\Home.js";
+var _jsxFileName = "C:\\Users\\olenaageyeva\\Desktop\\Training Projects\\conference\\src\\Home.js";
 
 
 
@@ -1100,7 +1100,7 @@ function index() {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "C:\\Users\\olenaageyeva\\Desktop\\Training Projects\\hello-next\\src\\ImageToggleOnScroll.js";
+var _jsxFileName = "C:\\Users\\olenaageyeva\\Desktop\\Training Projects\\conference\\src\\ImageToggleOnScroll.js";
 
 
 const ImageToggleOnScroll = ({
@@ -1166,7 +1166,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "C:\\Users\\olenaageyeva\\Desktop\\Training Projects\\hello-next\\src\\Menu.js";
+var _jsxFileName = "C:\\Users\\olenaageyeva\\Desktop\\Training Projects\\conference\\src\\Menu.js";
 
 
 class Menu extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
@@ -1260,7 +1260,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_toastify__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_toastify__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _App__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./App */ "./src/App.js");
 
-var _jsxFileName = "C:\\Users\\olenaageyeva\\Desktop\\Training Projects\\hello-next\\src\\SignMeUp.js";
+var _jsxFileName = "C:\\Users\\olenaageyeva\\Desktop\\Training Projects\\conference\\src\\SignMeUp.js";
 
 
 
@@ -1307,26 +1307,26 @@ const SignMeUp = ({
     className: "container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46
+      lineNumber: 47
     },
     __self: undefined
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47
+      lineNumber: 48
     },
     __self: undefined
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_toastify__WEBPACK_IMPORTED_MODULE_3__["ToastContainer"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 48
+      lineNumber: 49
     },
     __self: undefined
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "content",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49
+      lineNumber: 50
     },
     __self: undefined
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
@@ -1341,7 +1341,7 @@ const SignMeUp = ({
     required: true,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50
+      lineNumber: 51
     },
     __self: undefined
   }), "\xA0", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
@@ -1351,7 +1351,7 @@ const SignMeUp = ({
     type: "submit",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 62
+      lineNumber: 63
     },
     __self: undefined
   }, buttonText))));
@@ -1499,11 +1499,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _ImageToggleOnScroll__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ImageToggleOnScroll */ "./src/ImageToggleOnScroll.js");
-var _jsxFileName = "C:\\Users\\olenaageyeva\\Desktop\\Training Projects\\hello-next\\src\\SpeakerDetail.js";
+var _jsxFileName = "C:\\Users\\olenaageyeva\\Desktop\\Training Projects\\conference\\src\\SpeakerDetail.js";
 
 
-
-const SpeakerDetail = ({
+const SpeakerDetail = react__WEBPACK_IMPORTED_MODULE_0___default.a.memo(({
   id,
   firstName,
   lastName,
@@ -1567,8 +1566,7 @@ const SpeakerDetail = ({
     },
     __self: undefined
   }, bio)));
-};
-
+});
 /* harmony default export */ __webpack_exports__["default"] = (SpeakerDetail);
 
 /***/ }),
@@ -1597,9 +1595,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _SpeakerData__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./SpeakerData */ "./src/SpeakerData.js");
 /* harmony import */ var _SpeakerDetail__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./SpeakerDetail */ "./src/SpeakerDetail.js");
 /* harmony import */ var _App__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./App */ "./src/App.js");
+/* harmony import */ var _speakerReducer__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./speakerReducer */ "./src/speakerReducer.js");
 
 
-var _jsxFileName = "C:\\Users\\olenaageyeva\\Desktop\\Training Projects\\hello-next\\src\\Speakers.js";
+var _jsxFileName = "C:\\Users\\olenaageyeva\\Desktop\\Training Projects\\conference\\src\\Speakers.js";
+
 
 
 
@@ -1616,19 +1616,7 @@ const Speakers = ({}) => {
   //   WOULD BE IN SOURCE CONTROL AND NOT NECESSARY.
   //const [speakerList, setSpeakerList] = useState([]);
 
-  function speakersReducer(state, action) {
-    switch (action.type) {
-      case "setSpeakerList":
-        {
-          return action.data;
-        }
-
-      default:
-        return state;
-    }
-  }
-
-  const [speakerList, dispatch] = Object(react__WEBPACK_IMPORTED_MODULE_2__["useReducer"])(speakersReducer, []);
+  const [speakerList, dispatch] = Object(react__WEBPACK_IMPORTED_MODULE_2__["useReducer"])(_speakerReducer__WEBPACK_IMPORTED_MODULE_10__["default"], []);
   const [isLoading, setIsLoading] = Object(react__WEBPACK_IMPORTED_MODULE_2__["useState"])(true);
   const context = Object(react__WEBPACK_IMPORTED_MODULE_2__["useContext"])(_App__WEBPACK_IMPORTED_MODULE_9__["ConfigContext"]);
   Object(react__WEBPACK_IMPORTED_MODULE_2__["useEffect"])(() => {
@@ -1660,7 +1648,7 @@ const Speakers = ({}) => {
     setSpeakingSaturday(!speakingSaturday);
   };
 
-  const speakerListFiltered = isLoading ? [] : speakerList.filter(({
+  const newSpeakerList = Object(react__WEBPACK_IMPORTED_MODULE_2__["useMemo"])(() => speakerList.filter(({
     sat,
     sun
   }) => speakingSaturday && sat || speakingSunday && sun).sort(function (a, b) {
@@ -1673,28 +1661,30 @@ const Speakers = ({}) => {
     }
 
     return 0;
-  });
+  }), [speakingSaturday, speakingSunday, speakerList]);
+  const speakerListFiltered = isLoading ? [] : newSpeakerList;
 
   const handleChangeSunday = () => {
     setSpeakingSunday(!speakingSunday);
   };
 
-  const heartFavoriteHandler = (e, favoriteValue) => {
+  const heartFavoriteHandler = Object(react__WEBPACK_IMPORTED_MODULE_2__["useCallback"])((e, favoriteValue) => {
     e.preventDefault();
 
-    const sessionId = _babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_0___default()(e.target.attributes["data-sessionid"].value); // PLURALSIGHT COURSE NOTE: setSpeakerList IS BROKEN ON PURPOSE.  THIS IS FIXED IN NEXT CLIP
+    const sessionId = _babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_0___default()(e.target.attributes["data-sessionid"].value);
 
-
-    setSpeakerList(speakerList.map(item => {
-      if (item.id === sessionId) {
-        item.favorite = favoriteValue;
-        return item;
-      }
-
-      return item;
-    }));
-  };
-
+    dispatch({
+      type: favoriteValue === true ? "favorite" : "unfavorite",
+      sessionId
+    }); // PLURALSIGHT COURSE NOTE: setSpeakerList IS BROKEN ON PURPOSE.  THIS IS FIXED IN NEXT CLIP
+    // setSpeakerList(speakerList.map(item => {
+    //     if (item.id === sessionId) {
+    //         item.favorite = favoriteValue;
+    //         return item;
+    //     }
+    //     return item;
+    // }));
+  }, []);
   if (isLoading) return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
@@ -1831,6 +1821,52 @@ const Speakers = ({}) => {
 
 /***/ }),
 
+/***/ "./src/speakerReducer.js":
+/*!*******************************!*\
+  !*** ./src/speakerReducer.js ***!
+  \*******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+const speakersReducer = (state, action) => {
+  function updateFavorite(favoriteValue) {
+    return state.map((item, index) => {
+      if (item.id === action.sessionId) {
+        item.favorite = favoriteValue;
+        return item;
+      }
+
+      return item;
+    });
+  }
+
+  switch (action.type) {
+    case "setSpeakerList":
+      {
+        return action.data;
+      }
+
+    case "favorite":
+      {
+        return updateFavorite(true);
+      }
+
+    case "unfavorite":
+      {
+        return updateFavorite(false);
+      }
+
+    default:
+      return state;
+  }
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (speakersReducer);
+
+/***/ }),
+
 /***/ "./static/site.css":
 /*!*************************!*\
   !*** ./static/site.css ***!
@@ -1842,14 +1878,14 @@ const Speakers = ({}) => {
 
 /***/ }),
 
-/***/ 5:
+/***/ 3:
 /*!*********************************!*\
   !*** multi ./pages/speakers.js ***!
   \*********************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\olenaageyeva\Desktop\Training Projects\hello-next\pages\speakers.js */"./pages/speakers.js");
+module.exports = __webpack_require__(/*! C:\Users\olenaageyeva\Desktop\Training Projects\conference\pages\speakers.js */"./pages/speakers.js");
 
 
 /***/ }),

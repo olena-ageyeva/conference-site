@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useContext, useReducer } from "react";
+import React, { useState, useEffect, useContext, useReducer, useCallback, useMemo } from "react";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../static/site.css";
@@ -7,6 +7,7 @@ import { Menu } from "./Menu";
 import SpeakerData from "./SpeakerData";
 import SpeakerDetail from "./SpeakerDetail";
 import { ConfigContext } from "./App";
+import speakersReducer from './speakerReducer'
 
 const Speakers = ({ }) => {
     const [speakingSaturday, setSpeakingSaturday] = useState(true);
@@ -18,15 +19,7 @@ const Speakers = ({ }) => {
 
     //const [speakerList, setSpeakerList] = useState([]);
 
-    function speakersReducer(state, action) {
-        switch (action.type) {
-            case "setSpeakerList": {
-                return action.data;
-            }
-            default:
-                return state;
-        }
-    }
+
     const [speakerList, dispatch] = useReducer(speakersReducer, []);
 
     const [isLoading, setIsLoading] = useState(true);
@@ -59,39 +52,46 @@ const Speakers = ({ }) => {
         setSpeakingSaturday(!speakingSaturday);
     };
 
+    const newSpeakerList=useMemo(()=>speakerList
+    .filter(
+        ({ sat, sun }) => (speakingSaturday && sat) || (speakingSunday && sun)
+    )
+    .sort(function (a, b) {
+        if (a.firstName < b.firstName) {
+            return -1;
+        }
+        if (a.firstName > b.firstName) {
+            return 1;
+        }
+        return 0;
+    }), [speakingSaturday, speakingSunday, speakerList]);
+
+
     const speakerListFiltered = isLoading
         ? []
-        : speakerList
-            .filter(
-                ({ sat, sun }) => (speakingSaturday && sat) || (speakingSunday && sun)
-            )
-            .sort(function (a, b) {
-                if (a.firstName < b.firstName) {
-                    return -1;
-                }
-                if (a.firstName > b.firstName) {
-                    return 1;
-                }
-                return 0;
-            });
+        : newSpeakerList;
 
     const handleChangeSunday = () => {
         setSpeakingSunday(!speakingSunday);
     };
 
-    const heartFavoriteHandler = (e, favoriteValue) => {
+    const heartFavoriteHandler = useCallback((e, favoriteValue) => {
         e.preventDefault();
         const sessionId = parseInt(e.target.attributes["data-sessionid"].value);
+        dispatch({
+            type: favoriteValue === true ? "favorite" : "unfavorite",
+            sessionId
+        })
 
         // PLURALSIGHT COURSE NOTE: setSpeakerList IS BROKEN ON PURPOSE.  THIS IS FIXED IN NEXT CLIP
-        setSpeakerList(speakerList.map(item => {
-            if (item.id === sessionId) {
-                item.favorite = favoriteValue;
-                return item;
-            }
-            return item;
-        }));
-    };
+        // setSpeakerList(speakerList.map(item => {
+        //     if (item.id === sessionId) {
+        //         item.favorite = favoriteValue;
+        //         return item;
+        //     }
+        //     return item;
+        // }));
+    }, []);
 
     if (isLoading) return <div>Loading...</div>;
 

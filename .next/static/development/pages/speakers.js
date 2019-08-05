@@ -5872,9 +5872,9 @@ exports.formatWithValidation = formatWithValidation;
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fspeakers&absolutePagePath=C%3A%5CUsers%5Colenaageyeva%5CDesktop%5CTraining%20Projects%5Chello-next%5Cpages%5Cspeakers.js!./":
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fspeakers&absolutePagePath=C%3A%5CUsers%5Colenaageyeva%5CDesktop%5CTraining%20Projects%5Cconference%5Cpages%5Cspeakers.js!./":
 /*!*******************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fspeakers&absolutePagePath=C%3A%5CUsers%5Colenaageyeva%5CDesktop%5CTraining%20Projects%5Chello-next%5Cpages%5Cspeakers.js ***!
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fspeakers&absolutePagePath=C%3A%5CUsers%5Colenaageyeva%5CDesktop%5CTraining%20Projects%5Cconference%5Cpages%5Cspeakers.js ***!
   \*******************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -12653,7 +12653,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _src_App__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../src/App */ "./src/App.js");
-var _jsxFileName = "C:\\Users\\olenaageyeva\\Desktop\\Training Projects\\hello-next\\pages\\speakers.js";
+var _jsxFileName = "C:\\Users\\olenaageyeva\\Desktop\\Training Projects\\conference\\pages\\speakers.js";
 
 
 
@@ -12685,8 +12685,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _Home__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Home */ "./src/Home.js");
-/* harmony import */ var _Speakers__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Speakers */ "./src/Speakers.js");
-var _jsxFileName = "C:\\Users\\olenaageyeva\\Desktop\\Training Projects\\hello-next\\src\\App.js";
+/* harmony import */ var _Speakers__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Speakers */ "./src/Speakers.js");
+var _jsxFileName = "C:\\Users\\olenaageyeva\\Desktop\\Training Projects\\conference\\src\\App.js";
 
 
 
@@ -12700,7 +12700,7 @@ var pageToShow = function pageToShow(pageName) {
     },
     __self: this
   });
-  if (pageName === "Speakers") return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Speakers__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  if (pageName === "Speakers") return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Speakers__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
@@ -12756,7 +12756,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _SignMeUp__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./SignMeUp */ "./src/SignMeUp.js");
-var _jsxFileName = "C:\\Users\\olenaageyeva\\Desktop\\Training Projects\\hello-next\\src\\Header.js";
+var _jsxFileName = "C:\\Users\\olenaageyeva\\Desktop\\Training Projects\\conference\\src\\Header.js";
 
 
 var Header = function Header() {
@@ -12861,7 +12861,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _static_site_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_static_site_css__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _src_Header__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../src/Header */ "./src/Header.js");
 /* harmony import */ var _src_Menu__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../src/Menu */ "./src/Menu.js");
-var _jsxFileName = "C:\\Users\\olenaageyeva\\Desktop\\Training Projects\\hello-next\\src\\Home.js";
+var _jsxFileName = "C:\\Users\\olenaageyeva\\Desktop\\Training Projects\\conference\\src\\Home.js";
 
 
 
@@ -12941,7 +12941,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 
-var _jsxFileName = "C:\\Users\\olenaageyeva\\Desktop\\Training Projects\\hello-next\\src\\ImageToggleOnScroll.js";
+var _jsxFileName = "C:\\Users\\olenaageyeva\\Desktop\\Training Projects\\conference\\src\\ImageToggleOnScroll.js";
 
 
 var ImageToggleOnScroll = function ImageToggleOnScroll(_ref) {
@@ -13025,7 +13025,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "C:\\Users\\olenaageyeva\\Desktop\\Training Projects\\hello-next\\src\\Menu.js";
+var _jsxFileName = "C:\\Users\\olenaageyeva\\Desktop\\Training Projects\\conference\\src\\Menu.js";
 
 
 var Menu =
@@ -13134,7 +13134,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _App__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./App */ "./src/App.js");
 
 
-var _jsxFileName = "C:\\Users\\olenaageyeva\\Desktop\\Training Projects\\hello-next\\src\\SignMeUp.js";
+var _jsxFileName = "C:\\Users\\olenaageyeva\\Desktop\\Training Projects\\conference\\src\\SignMeUp.js";
 
 
 
@@ -13193,26 +13193,26 @@ var SignMeUp = function SignMeUp(_ref) {
     className: "container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46
+      lineNumber: 47
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47
+      lineNumber: 48
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_toastify__WEBPACK_IMPORTED_MODULE_4__["ToastContainer"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 48
+      lineNumber: 49
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
     className: "content",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49
+      lineNumber: 50
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("input", {
@@ -13227,7 +13227,7 @@ var SignMeUp = function SignMeUp(_ref) {
     required: true,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50
+      lineNumber: 51
     },
     __self: this
   }), "\xA0", react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("button", {
@@ -13237,7 +13237,7 @@ var SignMeUp = function SignMeUp(_ref) {
     type: "submit",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 62
+      lineNumber: 63
     },
     __self: this
   }, buttonText))));
@@ -13385,11 +13385,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _ImageToggleOnScroll__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ImageToggleOnScroll */ "./src/ImageToggleOnScroll.js");
-var _jsxFileName = "C:\\Users\\olenaageyeva\\Desktop\\Training Projects\\hello-next\\src\\SpeakerDetail.js";
+var _jsxFileName = "C:\\Users\\olenaageyeva\\Desktop\\Training Projects\\conference\\src\\SpeakerDetail.js";
 
 
-
-var SpeakerDetail = function SpeakerDetail(_ref) {
+var SpeakerDetail = react__WEBPACK_IMPORTED_MODULE_0___default.a.memo(function (_ref) {
   var id = _ref.id,
       firstName = _ref.firstName,
       lastName = _ref.lastName,
@@ -13452,8 +13451,7 @@ var SpeakerDetail = function SpeakerDetail(_ref) {
     },
     __self: this
   }, bio)));
-};
-
+});
 /* harmony default export */ __webpack_exports__["default"] = (SpeakerDetail);
 
 /***/ }),
@@ -13484,11 +13482,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _SpeakerData__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./SpeakerData */ "./src/SpeakerData.js");
 /* harmony import */ var _SpeakerDetail__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./SpeakerDetail */ "./src/SpeakerDetail.js");
 /* harmony import */ var _App__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./App */ "./src/App.js");
+/* harmony import */ var _speakerReducer__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./speakerReducer */ "./src/speakerReducer.js");
 
 
 
 
-var _jsxFileName = "C:\\Users\\olenaageyeva\\Desktop\\Training Projects\\hello-next\\src\\Speakers.js";
+var _jsxFileName = "C:\\Users\\olenaageyeva\\Desktop\\Training Projects\\conference\\src\\Speakers.js";
+
 
 
 
@@ -13515,19 +13515,7 @@ var Speakers = function Speakers(_ref) {
   //const [speakerList, setSpeakerList] = useState([]);
 
 
-  function speakersReducer(state, action) {
-    switch (action.type) {
-      case "setSpeakerList":
-        {
-          return action.data;
-        }
-
-      default:
-        return state;
-    }
-  }
-
-  var _useReducer = Object(react__WEBPACK_IMPORTED_MODULE_4__["useReducer"])(speakersReducer, []),
+  var _useReducer = Object(react__WEBPACK_IMPORTED_MODULE_4__["useReducer"])(_speakerReducer__WEBPACK_IMPORTED_MODULE_12__["default"], []),
       _useReducer2 = Object(_babel_runtime_corejs2_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_2__["default"])(_useReducer, 2),
       speakerList = _useReducer2[0],
       dispatch = _useReducer2[1];
@@ -13566,42 +13554,46 @@ var Speakers = function Speakers(_ref) {
     setSpeakingSaturday(!speakingSaturday);
   };
 
-  var speakerListFiltered = isLoading ? [] : speakerList.filter(function (_ref3) {
-    var sat = _ref3.sat,
-        sun = _ref3.sun;
-    return speakingSaturday && sat || speakingSunday && sun;
-  }).sort(function (a, b) {
-    if (a.firstName < b.firstName) {
-      return -1;
-    }
+  var newSpeakerList = Object(react__WEBPACK_IMPORTED_MODULE_4__["useMemo"])(function () {
+    return speakerList.filter(function (_ref3) {
+      var sat = _ref3.sat,
+          sun = _ref3.sun;
+      return speakingSaturday && sat || speakingSunday && sun;
+    }).sort(function (a, b) {
+      if (a.firstName < b.firstName) {
+        return -1;
+      }
 
-    if (a.firstName > b.firstName) {
-      return 1;
-    }
+      if (a.firstName > b.firstName) {
+        return 1;
+      }
 
-    return 0;
-  });
+      return 0;
+    });
+  }, [speakingSaturday, speakingSunday, speakerList]);
+  var speakerListFiltered = isLoading ? [] : newSpeakerList;
 
   var handleChangeSunday = function handleChangeSunday() {
     setSpeakingSunday(!speakingSunday);
   };
 
-  var heartFavoriteHandler = function heartFavoriteHandler(e, favoriteValue) {
+  var heartFavoriteHandler = Object(react__WEBPACK_IMPORTED_MODULE_4__["useCallback"])(function (e, favoriteValue) {
     e.preventDefault();
 
-    var sessionId = _babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_0___default()(e.target.attributes["data-sessionid"].value); // PLURALSIGHT COURSE NOTE: setSpeakerList IS BROKEN ON PURPOSE.  THIS IS FIXED IN NEXT CLIP
+    var sessionId = _babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_0___default()(e.target.attributes["data-sessionid"].value);
 
-
-    setSpeakerList(speakerList.map(function (item) {
-      if (item.id === sessionId) {
-        item.favorite = favoriteValue;
-        return item;
-      }
-
-      return item;
-    }));
-  };
-
+    dispatch({
+      type: favoriteValue === true ? "favorite" : "unfavorite",
+      sessionId: sessionId
+    }); // PLURALSIGHT COURSE NOTE: setSpeakerList IS BROKEN ON PURPOSE.  THIS IS FIXED IN NEXT CLIP
+    // setSpeakerList(speakerList.map(item => {
+    //     if (item.id === sessionId) {
+    //         item.favorite = favoriteValue;
+    //         return item;
+    //     }
+    //     return item;
+    // }));
+  }, []);
   if (isLoading) return react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
@@ -13737,14 +13729,60 @@ var Speakers = function Speakers(_ref) {
 
 /***/ }),
 
-/***/ 5:
+/***/ "./src/speakerReducer.js":
+/*!*******************************!*\
+  !*** ./src/speakerReducer.js ***!
+  \*******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+var speakersReducer = function speakersReducer(state, action) {
+  function updateFavorite(favoriteValue) {
+    return state.map(function (item, index) {
+      if (item.id === action.sessionId) {
+        item.favorite = favoriteValue;
+        return item;
+      }
+
+      return item;
+    });
+  }
+
+  switch (action.type) {
+    case "setSpeakerList":
+      {
+        return action.data;
+      }
+
+    case "favorite":
+      {
+        return updateFavorite(true);
+      }
+
+    case "unfavorite":
+      {
+        return updateFavorite(false);
+      }
+
+    default:
+      return state;
+  }
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (speakersReducer);
+
+/***/ }),
+
+/***/ 0:
 /*!***********************************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Fspeakers&absolutePagePath=C%3A%5CUsers%5Colenaageyeva%5CDesktop%5CTraining%20Projects%5Chello-next%5Cpages%5Cspeakers.js ***!
+  !*** multi next-client-pages-loader?page=%2Fspeakers&absolutePagePath=C%3A%5CUsers%5Colenaageyeva%5CDesktop%5CTraining%20Projects%5Cconference%5Cpages%5Cspeakers.js ***!
   \***********************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fspeakers&absolutePagePath=C%3A%5CUsers%5Colenaageyeva%5CDesktop%5CTraining%20Projects%5Chello-next%5Cpages%5Cspeakers.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fspeakers&absolutePagePath=C%3A%5CUsers%5Colenaageyeva%5CDesktop%5CTraining%20Projects%5Chello-next%5Cpages%5Cspeakers.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fspeakers&absolutePagePath=C%3A%5CUsers%5Colenaageyeva%5CDesktop%5CTraining%20Projects%5Cconference%5Cpages%5Cspeakers.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fspeakers&absolutePagePath=C%3A%5CUsers%5Colenaageyeva%5CDesktop%5CTraining%20Projects%5Cconference%5Cpages%5Cspeakers.js!./");
 
 
 /***/ }),
@@ -13760,5 +13798,5 @@ module.exports = dll_829b10deddf10e1653a8;
 
 /***/ })
 
-},[[5,"static/runtime/webpack.js","styles"]]]);
+},[[0,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=speakers.js.map
